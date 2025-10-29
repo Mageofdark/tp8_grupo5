@@ -1,2 +1,8 @@
 # tp8_grupo5
-tp8_grupo5# Integrantes del grupo: Lucas Figueroa, (mikluha12) Ignacio Huanca, (Ignacio367) Enrique Real, (Mageofdark) Matias Velazquez, (matias12131) Espino Ignacio, (Nachitott) Apaza Ignacio, (ApazaIgnacio)
+Integrantes del grupo: <br>
+Lucas Figueroa, (mikluha12) <br>
+Ignacio Huanca, (Ignacio367) <br>
+Enrique Real, (Mageofdark) <br>
+Matias Velazquez, (matias12131) <br>
+Espino Ignacio, (Nachitott) <br> 
+Apaza Ignacio, (ApazaIgnacio)
