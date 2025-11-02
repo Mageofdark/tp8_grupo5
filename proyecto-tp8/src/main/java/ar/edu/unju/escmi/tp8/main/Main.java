@@ -2,20 +2,16 @@ package ar.edu.unju.escmi.tp8.main;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.Persistence;
+import ar.edu.unju.escmi.config.EmfSingleton;
 
 public class Main {
     public static void main(String[] args) {
-        EntityManagerFactory emf = null;
-        EntityManager em = null;
-        
+        EntityManagerFactory emf = EmfSingleton.getInstance().getEmf();
+        EntityManager em = emf.createEntityManager();
         try {
             System.out.println("Intentando crear EntityManagerFactory...");
             // Usa el mismo nombre que está en persistence.xml: <persistence-unit name="TP8-TestPersistence">
-            emf = Persistence.createEntityManagerFactory("TP8-TestPersistence");
-            
             System.out.println("EntityManagerFactory creado correctamente");
-            em = emf.createEntityManager();
             
             System.out.println("EntityManager creado correctamente");
             System.out.println("¿EntityManager está abierto? " + em.isOpen());
