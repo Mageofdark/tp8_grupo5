@@ -1,4 +1,4 @@
-package main.java.ar.edu.unju.escmi.tp8.main;
+package ar.edu.unju.escmi.tp8.main;
 
 /**
  * Hello world!
