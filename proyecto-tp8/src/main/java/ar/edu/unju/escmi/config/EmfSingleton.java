@@ -6,7 +6,7 @@ import jakarta.persistence.Persistence;
 
 public class EmfSingleton {
 	private static EmfSingleton miInstancia = new EmfSingleton();
-	private static final String PERSISTENCE_UNIT_NAME = "TestPersistence";
+	private static final String PERSISTENCE_UNIT_NAME = "TP8-TestPersistence";
 	private EntityManagerFactory emf = null;
 	
 	private EmfSingleton() {
