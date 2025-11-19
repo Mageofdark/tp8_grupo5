@@ -9,17 +9,22 @@ public class Producto {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+    private int codigo;
     private String descripcion;
     private int precioUnitario;
     private boolean estado;
 
     public Producto() {}
 
-    public Producto(String descripcion, int precioUnitario, boolean estado) {
+    public Producto(int codigo, String descripcion, int precioUnitario, boolean estado) {
+        this.codigo = codigo;
         this.descripcion = descripcion;
         this.precioUnitario = precioUnitario;
         this.estado = estado;
     }
+
+    public int getCodigo() { return codigo; }
+    public void setCodigo(int codigo) { this.codigo = codigo; }
 
     public int getId() { return id; }
     public String getDescripcion() { return descripcion; }
