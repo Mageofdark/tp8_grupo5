@@ -8,10 +8,10 @@
 	    <!-- Proveedor de JPA -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!-- Clases de entidades -->
-        <class>ar.edu.unju.escmi.model.Cliente</class>
-        <class>ar.edu.unju.escmi.model.Producto</class>
-        <class>ar.edu.unju.escmi.model.Factura</class>
-        <class>ar.edu.unju.escmi.model.DetalleFactura</class>
+        <class>ar.edu.unju.escmi.entities.Cliente</class>
+        <class>ar.edu.unju.escmi.entities.Producto</class>
+        <class>ar.edu.unju.escmi.entities.Factura</class>
+        <class>ar.edu.unju.escmi.entities.DetalleFactura</class>
         
         <!-- Propiedades de conexión -->
         <properties>
